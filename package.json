@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "serve": "json-server --watch --port 4000 ./_data/db.json",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
